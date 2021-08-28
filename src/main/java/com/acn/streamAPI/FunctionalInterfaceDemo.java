@@ -85,7 +85,7 @@ class Student {
 
     private   String name;
     
-    private   String email;
+    private   String pin;
 
     public Student(int id, String name) {
         this.id = id;
