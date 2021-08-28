@@ -84,6 +84,8 @@ class Student {
     private int id;
 
     private   String name;
+    
+    private   String email;
 
     public Student(int id, String name) {
         this.id = id;
