@@ -105,7 +105,7 @@ public class MapDemo {
 		}
 		System.out.println("******************Sorting Books a/c to price/AuthName**************************");
 
-		Comparator c = new Comparator<Book>() {
+		Comparator<Book> c = new Comparator<Book>() {
 
 			@Override
 			public int compare(Book o1, Book o2) {
